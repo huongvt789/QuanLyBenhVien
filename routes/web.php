@@ -55,4 +55,5 @@ Route::group(['prefix'=>'admin'],function(){
 });
 Route::get('trangchu','PagesController@trangchu');
 Route::get('gioithieu','PagesController@gioithieu');
+Route::get('lienhe','PagesController@lienhe');
 Auth::routes();

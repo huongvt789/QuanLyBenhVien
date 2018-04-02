@@ -36,6 +36,7 @@
             <ul class="nav nav-tabs" role="tablist">
               <li role="presentation"><a href="trangchu" class="active">Trang chủ</a></li>
               <li role="presentation"><a href="gioithieu">Giới thiệu</a></li>
+              <li role="presentation"><a href="lienhe" class="active">Liên hệ</a></li>
             </ul>
           </div>
         </div>
@@ -61,7 +62,7 @@
             <img src="pages/img/slide.jpg" class="img-responsive" alt="">
             <div class="carousel-caption">
               <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.3s">
-                <h2><span>Clean & Modern Design Template</span></h2>
+                <h2><span>Mãi khỏe và hiện đại vì sức khỏe cộng đồng</span></h2>
               </div>
               <div class="col-md-10 col-md-offset-1">
                 <div class="wow fadeInUp" data-wow-offset="0" data-wow-delay="0.6s">
@@ -163,35 +164,6 @@
     </div>
   </div>
   <hr>
-
-  <div class="services">
-    <div class="container">
-      <div class="text-center">
-        <h2>consectetur adipisicing elit</h2>
-      </div>
-      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <i class="fa fa-heart-o"></i>
-        <h3>Fully Responsive</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-      </div>
-      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
-        <i class="fa fa-cloud"></i>
-        <h3>Retina Ready</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-      </div>
-      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="900ms">
-        <i class="fa fa-book"></i>
-        <h3>Fresh and Clean</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-      </div>
-      <div class="col-md-3 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="1200ms">
-        <i class="fa fa-gear"></i>
-        <h3>Easy to Customize</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum nam numquam voluptates cumque inventore, quibusdam corporis consequatur amet.</p>
-      </div>
-    </div>
-  </div>
-
   <section class="action">
     <div class="container">
       <div class="left-text hidden-xs">
@@ -272,7 +244,7 @@
   <footer>
     <div class="container">
       <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
-        <h4>About Us</h4>
+        <h4>Giới thiệu</h4>
         <p>Day is tellus ac cursus commodo, mauesris condime ntum nibh, ut fermentum mas justo sitters.</p>
         <div class="contact-info">
           <ul>
@@ -285,7 +257,7 @@
 
       <div class="col-md-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
         <div class="text-center">
-          <h4>Photo Gallery</h4>
+          <h4>Hình ảnh nổi bật</h4>
           <ul class="sidebar-gallery">
             <li><a href="#"><img src="pages/img/gallery1.png" alt="" /></a></li>
             <li><a href="#"><img src="pages/img/gallery2.png" alt="" /></a></li>

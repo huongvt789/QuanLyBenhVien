@@ -13,4 +13,7 @@ class PagesController extends Controller
 	public function gioithieu(){
    		return view('frontend.gioithieu');
 	}
+	public function lienhe(){
+   		return view('frontend.lienhe');
+	}
 }
