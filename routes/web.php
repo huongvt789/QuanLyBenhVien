@@ -28,7 +28,7 @@ Route::group(['prefix'=>'admin'],function(){
 
 		Route::get('xoa/{id}','BenhnhanController@getXoa');	
 	});
-	Route::group(['prefix'=>'nhanvien'],function(){
+	Route::group(['prefix'=>'QuanLyNhanVien'],function(){
 		Route::get('danhsach','NhanvienController@getDanhsach');
 
 		Route::get('sua/{id}','NhanvienController@getSua');
@@ -40,7 +40,7 @@ Route::group(['prefix'=>'admin'],function(){
 		Route::get('xoa/{id}','NhanvienController@getXoa');
 
 	});
-	Route::group(['prefix'=>'thuoc'],function(){
+	Route::group(['prefix'=>'QuanLyThuoc'],function(){
 		Route::get('danhsach','ThuocController@getDanhsach');
 
 		Route::get('sua/{id}','ThuocController@getSua');

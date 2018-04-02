@@ -42,7 +42,7 @@
                         <div class="portlet-title">
                             <div class="caption">
                                 <i class="icon-social-dribbble font-green"></i>
-                                <span class="caption-subject font-green bold uppercase">Thêm bệnh nhân</span>
+                                <span class="caption-subject font-green bold uppercase">Thêm sản phẩm</span>
                             </div>
                         </div>
                         <div class="portlet-body form">
@@ -59,7 +59,7 @@
                                     {{session('thongbao')}}
                                 </div>
                             @endif
-                            <form action="admin/QuanLyBenhNhan/them" method="POST" class="form-horizontal form-bordered" enctype="multipart/form-data">
+                            <form action="admin/QuanLyBenhNhan/sua/{{$benhnhan->id}}" method="POST" class="form-horizontal form-bordered" enctype="multipart/form-data">
                                 <input type="hidden" name="_token" value="{{csrf_token()}}" />
                                 <div class="form-body">
                                     <div class="form-group">
@@ -67,7 +67,7 @@
                                         <div class="col-md-9">
                                             <div class="input-icon right">
                                                 <i class="icon-exclamation-sign"></i>
-                                                <input type="text" class="form-control" name="ten" id="username2_input"> </div>
+                                                <input type="text" class="form-control" name="ten" id="username2_input" value="{{$benhnhan->ten}}"> </div>
                                         </div>
                                     </div>
                                     <div class="form-group">
@@ -100,7 +100,7 @@
                                         <div class="col-md-9">
                                             <div class="input-icon right">
                                                 <i class="icon-exclamation-sign"></i>
-                                                <input type="text" class="form-control" name="hoatdong" id="username2_input"> </div>
+                                                <input type="text" class="form-control" name="hoatdong" id="username2_input" value="{{$benhnhan->status}}"> </div>
                                         </div>
                                         </div>
          

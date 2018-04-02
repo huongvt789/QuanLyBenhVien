@@ -42,7 +42,7 @@
                         <div class="portlet-title">
                             <div class="caption">
                                 <i class="icon-social-dribbble font-green"></i>
-                                <span class="caption-subject font-green bold uppercase">Thêm bệnh nhân</span>
+                                <span class="caption-subject font-green bold uppercase">Thêm nhân viên</span>
                             </div>
                         </div>
                         <div class="portlet-body form">

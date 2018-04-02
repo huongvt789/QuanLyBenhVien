@@ -8,24 +8,21 @@
                 <span class="arrow"></span>
             </a>
         </li>
-        <li class="heading">
-            <h3 class="uppercase">Features</h3>
-        </li>
         <li class="nav-item  ">
             <a href="javascript:;" class="nav-link nav-toggle">
                 <i class="icon-diamond"></i>
-                <span class="title">Quản trị đối tác</span>
+                <span class="title">Quản lý bệnh nhân</span>
                 <span class="arrow"></span>
             </a>
             <ul class="sub-menu">
                 <li class="nav-item  ">
-                    <a href="ui_colors.html" class="nav-link ">
-                        <span class="title"><a href="admin/partner/danhsach">Danh sách đối tác</a></span>
+                    <a href="admin/QuanLyBenhNhan/danhsach" class="nav-link ">
+                        <span class="title"><a href="admin/QuanLyBenhNhan/danhsach">Danh sách bệnh nhân</a></span>
                     </a>
                 </li>
                 <li class="nav-item  ">
-                    <a href="ui_general.html" class="nav-link ">
-                        <span class="title"><a href="admin/partner/them">Thêm đối tác</a></span>
+                    <a href="admin/QuanLyBenhNhan/them" class="nav-link ">
+                        <span class="title"><a href="admin/QuanLyBenhNhan/them">Thêm bệnh nhân</a></span>
                     </a>
                 </li>
             </ul>
@@ -33,18 +30,18 @@
         <li class="nav-item  ">
             <a href="javascript:;" class="nav-link nav-toggle">
                 <i class="icon-diamond"></i>
-                <span class="title">Quản trị thể loại</span>
+                <span class="title">Quản lý thuốc</span>
                 <span class="arrow"></span>
             </a>
             <ul class="sub-menu">
                 <li class="nav-item  ">
-                    <a href="ui_colors.html" class="nav-link ">
-                        <span class="title"><a href="admin/category/danhsach">Danh sách thể loại</a></span>
+                    <a href="admin/QuanLyThuoc/danhsach" class="nav-link ">
+                        <span class="title"><a href="admin/QuanLyThuoc/danhsach">Danh sách thuốc</a></span>
                     </a>
                 </li>
                 <li class="nav-item  ">
-                    <a href="ui_general.html" class="nav-link ">
-                        <span class="title"><a href="admin/category/them">Thêm thể loại</a></span>
+                    <a href="admin/QuanLyBenhNhan/them" class="nav-link ">
+                        <span class="title"><a href="admin/QuanLyBenhNhan/them">Thêm thuốc</a></span>
                     </a>
                 </li>
             </ul>
@@ -52,105 +49,21 @@
         <li class="nav-item  ">
             <a href="javascript:;" class="nav-link nav-toggle">
                 <i class="icon-settings"></i>
-                <span class="title">Quản trị sản phẩm</span>
+                <span class="title">Quản lý nhân viên</span>
                 <span class="arrow"></span>
             </a>
             <ul class="sub-menu">
                 <li class="nav-item  ">
-                    <a href="admin/product/danhsach" class="nav-link ">
-                        <span class="title">Danh sách sản phẩm</span>
+                    <a href="admin/QuanLyNhanVien/danhsach" class="nav-link ">
+                        <span class="title">Danh sách nhân viên</span>
                     </a>
                 </li>
                 <li class="nav-item  ">
-                    <a href="admin/product/them" class="nav-link ">
-                        <span class="title">Thêm sản phẩm</span>
-                    </a>
-                </li><li class="nav-item  ">
-                    <a href="admin/feedback/danhsach" class="nav-link ">
-                        <span class="title">Phản hồi</span>
+                    <a href="admin/QuanLyNhanVien/them" class="nav-link ">
+                        <span class="title">Thêm nhân viên</span>
                     </a>
                 </li>
-            </ul>
-        </li>
-        <li class="nav-item  ">
-            <a href="javascript:;" class="nav-link nav-toggle">
-                <i class="icon-bulb"></i>
-                <span class="title">Quản trị hóa đơn</span>
-                <span class="arrow"></span>
-            </a>
-            <ul class="sub-menu">
-                <li class="nav-item  ">
-                    <a href="admin/order_product/danhsach" class="nav-link ">
-                        <span class="title">Danh sách hóa đơn</span>
-                    </a>
-                </li>
-                <li class="nav-item  ">
-                    <a href="admin/order_product/them" class="nav-link ">
-                        <span class="title">Thêm hóa đơn</span>
-                    </a>
-                </li>
-            </ul>
-        </li>
-        <li class="nav-item  ">
-            <a href="javascript:;" class="nav-link nav-toggle">
-                <i class="icon-briefcase"></i>
-                <span class="title">Quản trị khách hàng</span>
-                <span class="arrow"></span>
-            </a>
-            <ul class="sub-menu">
-                <li class="nav-item  ">
-                    <a href="admin/customer/danhsach" class="nav-link ">
-                        <span class="title">Danh sách khách hàng</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a href="admin/customer/them" class="nav-link ">
-                        <span class="title">Thêm khách hàng</span>
-                    </a>
-                </li>
-            </ul>
-        </li>
-        <li class="nav-item  ">
-            <a href="?p=" class="nav-link nav-toggle">
-                <i class="icon-wallet"></i>
-                <span class="title">Quản trị tin tức</span>
-                <span class="arrow"></span>
-            </a>
-            <ul class="sub-menu">
-                <li class="nav-item  ">
-                    <a href="admin/news/danhsach" class="nav-link ">
-                        <span class="title">Danh sách tin tức</span>
-                    </a>
-                </li>
-                <li class="nav-item  ">
-                    <a href="admin/news/them" class="nav-link ">
-                        <span class="title">Thêm tin tức</span>
-                    </a>
-                </li>
-                <li class="nav-item  ">
-                    <a href="admin/news/feedback" class="nav-link ">
-                        <span class="title">Phản hồi</span>
-                    </a>
-                </li>
-            </ul>
-        </li>
-        <li class="nav-item  ">
-            <a href="javascript:;" class="nav-link nav-toggle">
-                <i class="icon-bar-chart"></i>
-                <span class="title">Quản trị liên hệ</span>
-                <span class="arrow"></span>
-            </a>
-            <ul class="sub-menu">
-                <li class="nav-item  ">
-                    <a href="admin/contact/danhsach" class="nav-link ">
-                        <span class="title">Danh sách liên hệ</span>
-                    </a>
-                </li>
-                <li class="nav-item  ">
-                    <a href="admin/contact/them" class="nav-link ">
-                        <span class="title">Thêm liên hệ</span>
-                    </a>
-                </li>
+            
             </ul>
         </li>
         <li class="nav-item  ">

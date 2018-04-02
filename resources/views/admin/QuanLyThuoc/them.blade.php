@@ -42,7 +42,7 @@
                         <div class="portlet-title">
                             <div class="caption">
                                 <i class="icon-social-dribbble font-green"></i>
-                                <span class="caption-subject font-green bold uppercase">Thêm bệnh nhân</span>
+                                <span class="caption-subject font-green bold uppercase">Thêm thuốc</span>
                             </div>
                         </div>
                         <div class="portlet-body form">
@@ -59,11 +59,11 @@
                                     {{session('thongbao')}}
                                 </div>
                             @endif
-                            <form action="admin/QuanLyBenhNhan/them" method="POST" class="form-horizontal form-bordered" enctype="multipart/form-data">
+                            <form action="admin/QuanLyThuoc/them" method="POST" class="form-horizontal form-bordered" enctype="multipart/form-data">
                                 <input type="hidden" name="_token" value="{{csrf_token()}}" />
                                 <div class="form-body">
                                     <div class="form-group">
-                                        <label class="control-label col-md-2">Name</label>
+                                        <label class="control-label col-md-2">Tên thuốc</label>
                                         <div class="col-md-9">
                                             <div class="input-icon right">
                                                 <i class="icon-exclamation-sign"></i>
@@ -71,30 +71,14 @@
                                         </div>
                                     </div>
                                     <div class="form-group">
-                                        <label class="control-label col-md-2">Tuổi</label>
+                                        <label class="control-label col-md-2">Số lượng</label>
                                         <div class="col-md-9">
                                             <div class="input-icon right">
                                                 <i class="icon-exclamation-sign"></i>
-                                                <input type="text" class="form-control" name="tuoi" id="username2_input"> </div>
+                                                <input type="text" class="form-control" name="soluong" id="username2_input"> </div>
                                         </div>
                                     </div>
-                                     <div class="form-group">
-                                        <label class="control-label col-md-2">Địa chỉ</label>
-                                        <div class="col-md-9">
-                                            <div class="input-icon right">
-                                                <i class="icon-exclamation-sign"></i>
-                                                <input type="text" class="form-control" name="diachi" id="username2_input"> </div>
-                                        </div>
-                                    </div>
-                                 <div class="form-group">
-                                        <label class="control-label col-md-2">Số điện thoại</label>
-                                        <div class="col-md-9">
-                                            <div class="input-icon right">
-                                                <i class="icon-exclamation-sign"></i>
-                                                <input type="text" class="form-control" name="sodienthoai" id="username2_input"> </div>
-                                        </div>
-                                    </div>
-                                
+                                     
                                     <div class="form-group last password-strength">
                                         <label class="control-label col-md-2">Hoạt động</label>
                                         <div class="col-md-9">
