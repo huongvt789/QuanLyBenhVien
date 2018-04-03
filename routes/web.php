@@ -10,7 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-
+Route::get('admin/dangnhap','UserController@dangnhapAdmin');
+Route::post('admin/dangnhap','UserController@dangnhapAdmin');
 Route::get('/', function () {
     return view('welcome');
 });
@@ -57,3 +58,7 @@ Route::get('trangchu','PagesController@trangchu');
 Route::get('gioithieu','PagesController@gioithieu');
 Route::get('lienhe','PagesController@lienhe');
 Auth::routes();
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');

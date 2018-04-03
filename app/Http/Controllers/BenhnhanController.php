@@ -21,14 +21,7 @@ class BenhnhanController extends Controller
     
     }
     public function postThem(Request $request){
-        $this->validate($request,[
-            'name'=>'required|min:3|max:100'
-            ],
-            [
-            'name.required'=>'Bạn chưa nhập tên thể loại',
-            'name.min'=>'Tên thể lọa có độ dài từ 3 cho đến 100 ký tự',
-            'name.max'=>'Tên thể loại phải có độ dài từ cho đến 100 ký tự',
-            ]);
+       
         $benhnhan = new Benhnhan;
         $benhnhan->ten=$request->ten;
         $benhnhan->tuoi=$request->tuoi;
